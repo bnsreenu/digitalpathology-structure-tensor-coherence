@@ -2,7 +2,7 @@
 
 **DigitalSreeni Tutorial**
 
-This repository contains the Colab notebook, slides, and supporting materials for the tutorial on quantifying collagen fiber organization in breast carcinoma H&E stained tissue using the structure tensor coherence map — without deep learning, without training data, and without special staining.
+This repository contains the Colab notebook, slides, and supporting materials for the tutorial on quantifying collagen fiber organization in breast carcinoma H&E stained tissue using the structure tensor coherence map - without deep learning, without training data, and without special staining.
 
 ---
 
@@ -24,8 +24,8 @@ Manual TACS scoring requires a specialist pathologist and is not scalable. SHG m
 
 The structure tensor coherence map assigns a value C between 0 and 1 to every pixel:
 
-- **C near 1** — all local fiber edges point the same direction (aligned collagen stroma)
-- **C near 0** — gradients cancel because fibers run in every direction (tumor nests, disorganized stroma)
+- **C near 1** - all local fiber edges point the same direction (aligned collagen stroma)
+- **C near 0** - gradients cancel because fibers run in every direction (tumor nests, disorganized stroma)
 
 The orientation map gives the dominant fiber direction at every pixel as a free bonus from the same computation.
 
@@ -44,21 +44,7 @@ H&E image
 
 No hyperparameters to tune beyond sigma (matched to fiber width) and rho (matched to fiber spacing). Both scale with magnification.
 
----
 
-## Repository contents
-
-```
-digitalpathology-structure-tensor-coherence/
-├── notebook/
-│   └── TACS_collagen_coherence.ipynb       Main Colab tutorial notebook
-├── slides/
-│   └── TACS_structure_tensor_slides.pptx   Slide deck (11 slides)
-├── images/
-│   └── HE_fibrous_tissue2.png              H&E image used in tutorial
-├── README.md
-└── LICENSE
-```
 
 ---
 
@@ -160,7 +146,8 @@ The image used in this tutorial was generated using ChatGPT image generation wit
 
 ## Related videos
 
-This tutorial is a standalone video. It connects to the **AI in Digital Pathology** series:
+This tutorial is a standalone video. [https://www.youtube.com/@DigitalSreeni](https://youtu.be/xzgSLx1J0Go)
+It connects to the **AI in Digital Pathology** series:
 
 - The patch tiling approach for WSI analysis is covered in earlier videos in that series
 - Tumor boundary detection (needed for TACS-2 vs TACS-3 classification) uses the tissue segmentation methods from that series
