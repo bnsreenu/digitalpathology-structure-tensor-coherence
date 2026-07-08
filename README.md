@@ -146,7 +146,7 @@ The image used in this tutorial was generated using ChatGPT image generation wit
 
 ## Related videos
 
-This tutorial is a standalone video. [https://www.youtube.com/@DigitalSreeni](https://youtu.be/xzgSLx1J0Go)
+This tutorial is a standalone video. [YouTube Link](https://youtu.be/xzgSLx1J0Go)
 It connects to the **AI in Digital Pathology** series:
 
 - The patch tiling approach for WSI analysis is covered in earlier videos in that series
